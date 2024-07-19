@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Wireless_Charging",
+            "type": "ccs-debug",
+            "request": "launch",
+            "project": "Wireless_Charging",
+            "debuggerSettings": {
+                "targetConfigs/TMS320F28069.ccxml": {
+                    "Texas Instruments XDS100v2 USB Debug Probe/C28xx": {
+                        "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                    }
+                }
+            }
+        }
+    ]
+}
